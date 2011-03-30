@@ -8,7 +8,7 @@ Save values
 */
 
 // variables
-$url = $_GET["url"];
+$url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20html%20where%20url%3D%22http%3A%2F%2Fwww.cybercitizens.com%2Fcitizen_create_choose_city.asp%22%20%0Aand%20xpath%3D'%2F%2Ftable%2Ftr%2Ftd%5B2%5D%2F..'&format=xml";
 
 $filename = "data.xml";
 
